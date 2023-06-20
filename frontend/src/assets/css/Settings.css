@@ -1,0 +1,129 @@
+
+.settings
+{
+    display: flex;
+    flex-direction: column;
+}
+.settingsHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.userInfo h1
+{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.userInfo span
+{
+    opacity: 0.7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.pfpContainer
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+   text-align: right;
+}
+.pfp
+{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.changeAvatar
+{
+    margin-top: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.changeAvatar:hover
+{
+    text-decoration: underline;
+    color: var(--yellowcolor);
+}
+
+.controlContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px 20px;
+    width: 75%;
+    padding: 10px 30px;
+    border: 2px dotted rgba(255, 255, 0, 0.589);
+    border-radius: 10px;
+}
+.option
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.option input
+{
+    margin: 0px 10px;
+}
+
+.settingsForm
+{
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+}
+
+.settingsForm form
+{
+    width: 50%;
+}
+.catGif
+{
+    opacity: 0.6;
+    height: 60vh;
+    width: 80vh;
+    filter: invert();
+}
+
+.passbox
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icondiv
+{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.changepassBtn
+{
+    margin-top: 50px !important;
+}
